@@ -28,7 +28,7 @@
 }
 
 -(void)initData{
-    _menuArray = [NSArray arrayWithObjects:@"动画1",@"动画2", nil];
+    _menuArray = [NSArray arrayWithObjects:@"界面1",@"界面2", nil];
 }
 
 -(void)initView{

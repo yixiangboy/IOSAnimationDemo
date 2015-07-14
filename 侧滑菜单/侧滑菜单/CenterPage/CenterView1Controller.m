@@ -16,6 +16,12 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenColor];
     
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(SCREEN_WIDTH/2-50, 100, 100, 100)];
+    label.text = @"界面1";
+    label.font = [UIFont systemFontOfSize:22];
+    label.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:label];
+    
     
     SWRevealViewController *revealController = self.revealViewController;
     [self.view addGestureRecognizer:revealController.panGestureRecognizer];

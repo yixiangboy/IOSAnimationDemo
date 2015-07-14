@@ -18,7 +18,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor blackColor];
+    self.view.backgroundColor = [UIColor cyanColor];//蓝绿色
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(SCREEN_WIDTH/2-50, 100, 100, 100)];
+    label.text = @"界面2";
+    label.font = [UIFont systemFontOfSize:22];
+    label.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:label];
     
 
     SWRevealViewController *revealController = self.revealViewController;

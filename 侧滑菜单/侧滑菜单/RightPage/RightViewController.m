@@ -13,6 +13,12 @@
 -(void)viewDidLoad{
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor orangeColor];
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(SCREEN_WIDTH/2-100, 100, 200, 100)];
+    label.text = @"右边侧滑栏";
+    label.font = [UIFont systemFontOfSize:22];
+    label.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:label];
 }
 
 @end
