@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  侧滑菜单
+//
+//  Created by yixiang on 15/7/14.
+//  Copyright (c) 2015年 yixiang. All rights reserved.
+//
+
+#ifndef _____PrefixHeader_pch
+#define _____PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+#endif
