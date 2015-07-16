@@ -26,7 +26,7 @@
     label.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:label];
     
-
+    //注册该页面可以执行滑动切换
     SWRevealViewController *revealController = self.revealViewController;
     [self.view addGestureRecognizer:revealController.panGestureRecognizer];
 }

@@ -77,19 +77,11 @@
         case 1:
             viewController = [[CenterView2Controller alloc] init];
             break;
-        case 2:
-            
-            break;
-        case 3:
-            
-            break;
-        case 4:
-            
-            break;
             
         default:
             break;
     }
+    //调用pushFrontViewController进行页面切换
     [revealViewController pushFrontViewController:viewController animated:YES];
     
 }
