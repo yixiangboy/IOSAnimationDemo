@@ -8,8 +8,11 @@
 
 #import "LeftViewController.h"
 #import "SWRevealViewController.h"
-#import "CenterView1Controller.h"
-#import "CenterView2Controller.h"
+#import "BaseAnimationController.h"
+#import "KeyFrameAnimationController.h"
+#import "GroupAnimationController.h"
+#import "TransitionAnimationController.h"
+#import "ComprehensiveCaseController.h"
 
 @interface LeftViewController()<UITableViewDataSource,UITableViewDelegate>
 
@@ -28,7 +31,7 @@
 }
 
 -(void)initData{
-    _menuArray = [NSArray arrayWithObjects:@"界面1",@"界面2", nil];
+    _menuArray = [NSArray arrayWithObjects:@"基础动画",@"关键帧动画",@"组动画",@"过渡动画",@"综合案例", nil];
 }
 
 -(void)initView{
@@ -72,12 +75,20 @@
     
     switch (indexPath.row) {
         case 0:
-            viewController = [[CenterView1Controller alloc] init];
+            viewController = [[BaseAnimationController alloc] init];
             break;
         case 1:
-            viewController = [[CenterView2Controller alloc] init];
+            viewController = [[KeyFrameAnimationController alloc] init];
             break;
-            
+        case 2:
+            viewController = [[GroupAnimationController alloc] init];
+            break;
+        case 3:
+            viewController = [[TransitionAnimationController alloc] init];
+            break;
+        case 4:
+            viewController = [[ComprehensiveCaseController alloc] init];
+            break;
         default:
             break;
     }

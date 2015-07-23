@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface CenterView2Controller : UIViewController
+@interface KeyFrameAnimationController : BaseViewController
 
 @end

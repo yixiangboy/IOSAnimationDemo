@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "SWRevealViewController.h"
 #import "LeftViewController.h"
-#import "CenterView1Controller.h"
+#import "BaseAnimationController.h"
 #import "RightViewController.h"
 
 @interface AppDelegate ()
@@ -27,7 +27,7 @@
     LeftViewController *leftViewController = [[LeftViewController alloc] init];
     
     //首页
-    CenterView1Controller *centerView1Controller = [[CenterView1Controller alloc] init];
+    BaseAnimationController *centerView1Controller = [[BaseAnimationController alloc] init];
     
     //右侧菜单栏
     RightViewController *rightViewController = [[RightViewController alloc] init];

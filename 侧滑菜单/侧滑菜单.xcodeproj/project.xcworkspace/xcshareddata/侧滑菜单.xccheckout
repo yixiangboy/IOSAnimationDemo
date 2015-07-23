@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>06780A99-B6E6-4D14-994B-173CA62790BA</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>侧滑菜单</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>736DD147C0EBC2E84B8772B79FF27A6BCC165878</key>
 		<string>https://github.com/yixiangboy/IOSAnimationDemo</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>侧滑菜单/侧滑菜单.xcodeproj/project.xcworkspace</string>
+	<string>侧滑菜单/侧滑菜单.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>736DD147C0EBC2E84B8772B79FF27A6BCC165878</key>
