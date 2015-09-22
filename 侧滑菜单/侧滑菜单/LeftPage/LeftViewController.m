@@ -13,6 +13,7 @@
 #import "GroupAnimationController.h"
 #import "TransitionAnimationController.h"
 #import "ComprehensiveCaseController.h"
+#import "AffineTransformController.h"
 
 @interface LeftViewController()<UITableViewDataSource,UITableViewDelegate>
 
@@ -31,7 +32,7 @@
 }
 
 -(void)initData{
-    _menuArray = [NSArray arrayWithObjects:@"基础动画",@"关键帧动画",@"组动画",@"过渡动画",@"综合案例", nil];
+    _menuArray = [NSArray arrayWithObjects:@"基础动画",@"关键帧动画",@"组动画",@"过渡动画",@"仿射变换",@"综合案例", nil];
 }
 
 -(void)initView{
@@ -87,6 +88,9 @@
             viewController = [[TransitionAnimationController alloc] init];
             break;
         case 4:
+            viewController = [[AffineTransformController alloc] init];
+            break;
+        case 5:
             viewController = [[ComprehensiveCaseController alloc] init];
             break;
         default:

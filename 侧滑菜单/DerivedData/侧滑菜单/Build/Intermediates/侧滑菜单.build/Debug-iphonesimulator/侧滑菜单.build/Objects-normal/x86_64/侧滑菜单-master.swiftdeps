@@ -1,0 +1,4 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.53.1 clang-602.0.53)"
+options: "c14a3d1d89256a1d2b6c36a4564f0704"
+inputs: 
+- !dirty "/Users/yixiang/IOS/\u6211\u7684\u535A\u5BA2/UI\u7BC7/03\u3001\u5B9E\u73B0\u4E00\u4E2A\u4FA7\u52A8\u83DC\u5355SlidingMenu/IOSAnimationDemo/\u4FA7\u6ED1\u83DC\u5355/\u4FA7\u6ED1\u83DC\u5355/CenterPage/Controller/AffineTransformController.swift"

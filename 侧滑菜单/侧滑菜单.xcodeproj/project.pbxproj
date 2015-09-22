@@ -35,6 +35,13 @@
 		DA57DF601B5FC72300EF5718 /* Like-Blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA57DF5D1B5FC72300EF5718 /* Like-Blue@2x.png */; };
 		DA57DF611B5FC72300EF5718 /* Like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA57DF5E1B5FC72300EF5718 /* Like@2x.png */; };
 		DA57DF621B5FC72300EF5718 /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = DA57DF5F1B5FC72300EF5718 /* Sparkle.png */; };
+		DA6B3A911BAFF26C00D82AC1 /* AffineTransformController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3A841BAFF26C00D82AC1 /* AffineTransformController.m */; };
+		DA6B3A921BAFF26C00D82AC1 /* BaseAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3A861BAFF26C00D82AC1 /* BaseAnimationController.m */; };
+		DA6B3A931BAFF26C00D82AC1 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3A881BAFF26C00D82AC1 /* BaseViewController.m */; };
+		DA6B3A941BAFF26C00D82AC1 /* ComprehensiveCaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3A8A1BAFF26C00D82AC1 /* ComprehensiveCaseController.m */; };
+		DA6B3A951BAFF26C00D82AC1 /* GroupAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3A8C1BAFF26C00D82AC1 /* GroupAnimationController.m */; };
+		DA6B3A961BAFF26C00D82AC1 /* KeyFrameAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3A8E1BAFF26C00D82AC1 /* KeyFrameAnimationController.m */; };
+		DA6B3A971BAFF26C00D82AC1 /* TransitionAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6B3A901BAFF26C00D82AC1 /* TransitionAnimationController.m */; };
 		DA88940D1B53E3FF00B47DE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88940C1B53E3FF00B47DE7 /* main.m */; };
 		DA8894101B53E3FF00B47DE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88940F1B53E3FF00B47DE7 /* AppDelegate.m */; };
 		DA8894131B53E3FF00B47DE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8894121B53E3FF00B47DE7 /* ViewController.m */; };
@@ -44,14 +51,8 @@
 		DA8894271B53E3FF00B47DE7 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8894261B53E3FF00B47DE7 /* ____Tests.m */; };
 		DA8894331B53E7A200B47DE7 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8894321B53E7A200B47DE7 /* SWRevealViewController.m */; };
 		DA8894391B53F00300B47DE7 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8894381B53F00300B47DE7 /* RightViewController.m */; };
-		DA88943C1B53F08A00B47DE7 /* BaseAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88943B1B53F08A00B47DE7 /* BaseAnimationController.m */; };
 		DA88943F1B53F0CB00B47DE7 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88943E1B53F0CB00B47DE7 /* LeftViewController.m */; };
-		DA8894431B552AFD00B47DE7 /* KeyFrameAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8894421B552AFD00B47DE7 /* KeyFrameAnimationController.m */; };
-		DAADC3201B5A4CF900E6C503 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAADC31F1B5A4CF900E6C503 /* BaseViewController.m */; };
-		DAADC3231B5A571C00E6C503 /* GroupAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAADC3221B5A571C00E6C503 /* GroupAnimationController.m */; };
-		DAADC3261B5A57C300E6C503 /* TransitionAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAADC3251B5A57C300E6C503 /* TransitionAnimationController.m */; };
 		DAADC32A1B5B40A700E6C503 /* TitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DAADC3291B5B40A700E6C503 /* TitleButton.m */; };
-		DAADC32E1B5B651400E6C503 /* ComprehensiveCaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAADC32D1B5B651400E6C503 /* ComprehensiveCaseController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,20 @@
 		DA57DF5D1B5FC72300EF5718 /* Like-Blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like-Blue@2x.png"; sourceTree = "<group>"; };
 		DA57DF5E1B5FC72300EF5718 /* Like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Like@2x.png"; sourceTree = "<group>"; };
 		DA57DF5F1B5FC72300EF5718 /* Sparkle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sparkle.png; sourceTree = "<group>"; };
+		DA6B3A831BAFF26C00D82AC1 /* AffineTransformController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AffineTransformController.h; sourceTree = "<group>"; };
+		DA6B3A841BAFF26C00D82AC1 /* AffineTransformController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AffineTransformController.m; sourceTree = "<group>"; };
+		DA6B3A851BAFF26C00D82AC1 /* BaseAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimationController.h; sourceTree = "<group>"; };
+		DA6B3A861BAFF26C00D82AC1 /* BaseAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationController.m; sourceTree = "<group>"; };
+		DA6B3A871BAFF26C00D82AC1 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DA6B3A881BAFF26C00D82AC1 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DA6B3A891BAFF26C00D82AC1 /* ComprehensiveCaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComprehensiveCaseController.h; sourceTree = "<group>"; };
+		DA6B3A8A1BAFF26C00D82AC1 /* ComprehensiveCaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComprehensiveCaseController.m; sourceTree = "<group>"; };
+		DA6B3A8B1BAFF26C00D82AC1 /* GroupAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupAnimationController.h; sourceTree = "<group>"; };
+		DA6B3A8C1BAFF26C00D82AC1 /* GroupAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupAnimationController.m; sourceTree = "<group>"; };
+		DA6B3A8D1BAFF26C00D82AC1 /* KeyFrameAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameAnimationController.h; sourceTree = "<group>"; };
+		DA6B3A8E1BAFF26C00D82AC1 /* KeyFrameAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameAnimationController.m; sourceTree = "<group>"; };
+		DA6B3A8F1BAFF26C00D82AC1 /* TransitionAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimationController.h; sourceTree = "<group>"; };
+		DA6B3A901BAFF26C00D82AC1 /* TransitionAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimationController.m; sourceTree = "<group>"; };
 		DA8894071B53E3FF00B47DE7 /* 侧滑菜单.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "侧滑菜单.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA88940B1B53E3FF00B47DE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA88940C1B53E3FF00B47DE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -116,23 +131,11 @@
 		DA8894321B53E7A200B47DE7 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		DA8894371B53F00300B47DE7 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
 		DA8894381B53F00300B47DE7 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
-		DA88943A1B53F08A00B47DE7 /* BaseAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseAnimationController.h; path = ../BaseAnimationController.h; sourceTree = "<group>"; };
-		DA88943B1B53F08A00B47DE7 /* BaseAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseAnimationController.m; path = ../BaseAnimationController.m; sourceTree = "<group>"; };
 		DA88943D1B53F0CB00B47DE7 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
 		DA88943E1B53F0CB00B47DE7 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
 		DA8894401B55233C00B47DE7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		DA8894411B552AFD00B47DE7 /* KeyFrameAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyFrameAnimationController.h; path = ../KeyFrameAnimationController.h; sourceTree = "<group>"; };
-		DA8894421B552AFD00B47DE7 /* KeyFrameAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyFrameAnimationController.m; path = ../KeyFrameAnimationController.m; sourceTree = "<group>"; };
-		DAADC31E1B5A4CF900E6C503 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../BaseViewController.h; sourceTree = "<group>"; };
-		DAADC31F1B5A4CF900E6C503 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../BaseViewController.m; sourceTree = "<group>"; };
-		DAADC3211B5A571C00E6C503 /* GroupAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GroupAnimationController.h; path = ../GroupAnimationController.h; sourceTree = "<group>"; };
-		DAADC3221B5A571C00E6C503 /* GroupAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GroupAnimationController.m; path = ../GroupAnimationController.m; sourceTree = "<group>"; };
-		DAADC3241B5A57C300E6C503 /* TransitionAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransitionAnimationController.h; path = ../TransitionAnimationController.h; sourceTree = "<group>"; };
-		DAADC3251B5A57C300E6C503 /* TransitionAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransitionAnimationController.m; path = ../TransitionAnimationController.m; sourceTree = "<group>"; };
 		DAADC3281B5B40A700E6C503 /* TitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleButton.h; sourceTree = "<group>"; };
 		DAADC3291B5B40A700E6C503 /* TitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleButton.m; sourceTree = "<group>"; };
-		DAADC32C1B5B651400E6C503 /* ComprehensiveCaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComprehensiveCaseController.h; path = ../ComprehensiveCaseController.h; sourceTree = "<group>"; };
-		DAADC32D1B5B651400E6C503 /* ComprehensiveCaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComprehensiveCaseController.m; path = ../ComprehensiveCaseController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,25 +156,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DA57DF1F1B5CB56A00EF5718 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				DA88943A1B53F08A00B47DE7 /* BaseAnimationController.h */,
-				DA88943B1B53F08A00B47DE7 /* BaseAnimationController.m */,
-				DA8894411B552AFD00B47DE7 /* KeyFrameAnimationController.h */,
-				DA8894421B552AFD00B47DE7 /* KeyFrameAnimationController.m */,
-				DAADC31E1B5A4CF900E6C503 /* BaseViewController.h */,
-				DAADC31F1B5A4CF900E6C503 /* BaseViewController.m */,
-				DAADC3211B5A571C00E6C503 /* GroupAnimationController.h */,
-				DAADC3221B5A571C00E6C503 /* GroupAnimationController.m */,
-				DAADC3241B5A57C300E6C503 /* TransitionAnimationController.h */,
-				DAADC3251B5A57C300E6C503 /* TransitionAnimationController.m */,
-				DAADC32C1B5B651400E6C503 /* ComprehensiveCaseController.h */,
-				DAADC32D1B5B651400E6C503 /* ComprehensiveCaseController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		DA57DF201B5E35F900EF5718 /* image */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +224,27 @@
 				DA57DF5A1B5FC6C300EF5718 /* MCFireworksView.m */,
 			);
 			path = MCFireworksButton;
+			sourceTree = "<group>";
+		};
+		DA6B3A821BAFF26C00D82AC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA6B3A831BAFF26C00D82AC1 /* AffineTransformController.h */,
+				DA6B3A841BAFF26C00D82AC1 /* AffineTransformController.m */,
+				DA6B3A851BAFF26C00D82AC1 /* BaseAnimationController.h */,
+				DA6B3A861BAFF26C00D82AC1 /* BaseAnimationController.m */,
+				DA6B3A871BAFF26C00D82AC1 /* BaseViewController.h */,
+				DA6B3A881BAFF26C00D82AC1 /* BaseViewController.m */,
+				DA6B3A891BAFF26C00D82AC1 /* ComprehensiveCaseController.h */,
+				DA6B3A8A1BAFF26C00D82AC1 /* ComprehensiveCaseController.m */,
+				DA6B3A8B1BAFF26C00D82AC1 /* GroupAnimationController.h */,
+				DA6B3A8C1BAFF26C00D82AC1 /* GroupAnimationController.m */,
+				DA6B3A8D1BAFF26C00D82AC1 /* KeyFrameAnimationController.h */,
+				DA6B3A8E1BAFF26C00D82AC1 /* KeyFrameAnimationController.m */,
+				DA6B3A8F1BAFF26C00D82AC1 /* TransitionAnimationController.h */,
+				DA6B3A901BAFF26C00D82AC1 /* TransitionAnimationController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		DA8893FE1B53E3FF00B47DE7 = {
@@ -332,7 +337,7 @@
 		DA8894351B53EF9500B47DE7 /* CenterPage */ = {
 			isa = PBXGroup;
 			children = (
-				DA57DF1F1B5CB56A00EF5718 /* Controller */,
+				DA6B3A821BAFF26C00D82AC1 /* Controller */,
 				DAADC3271B5B404900E6C503 /* View */,
 			);
 			path = CenterPage;
@@ -478,25 +483,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA6B3A921BAFF26C00D82AC1 /* BaseAnimationController.m in Sources */,
+				DA6B3A961BAFF26C00D82AC1 /* KeyFrameAnimationController.m in Sources */,
 				DA8894391B53F00300B47DE7 /* RightViewController.m in Sources */,
 				DA57DF5C1B5FC6C300EF5718 /* MCFireworksView.m in Sources */,
-				DAADC3201B5A4CF900E6C503 /* BaseViewController.m in Sources */,
-				DAADC3261B5A57C300E6C503 /* TransitionAnimationController.m in Sources */,
 				DA57DF551B5F6A8400EF5718 /* DWBubbleMenuButton.m in Sources */,
+				DA6B3A971BAFF26C00D82AC1 /* TransitionAnimationController.m in Sources */,
+				DA6B3A951BAFF26C00D82AC1 /* GroupAnimationController.m in Sources */,
 				DA8894131B53E3FF00B47DE7 /* ViewController.m in Sources */,
-				DAADC32E1B5B651400E6C503 /* ComprehensiveCaseController.m in Sources */,
 				DA57DF5B1B5FC6C300EF5718 /* MCFireworksButton.m in Sources */,
+				DA6B3A911BAFF26C00D82AC1 /* AffineTransformController.m in Sources */,
 				DA8894101B53E3FF00B47DE7 /* AppDelegate.m in Sources */,
-				DA88943C1B53F08A00B47DE7 /* BaseAnimationController.m in Sources */,
 				DA57DF501B5E36FB00EF5718 /* DCPathCenterButton.m in Sources */,
+				DA6B3A931BAFF26C00D82AC1 /* BaseViewController.m in Sources */,
 				DAADC32A1B5B40A700E6C503 /* TitleButton.m in Sources */,
-				DA8894431B552AFD00B47DE7 /* KeyFrameAnimationController.m in Sources */,
 				DA88943F1B53F0CB00B47DE7 /* LeftViewController.m in Sources */,
 				DA88940D1B53E3FF00B47DE7 /* main.m in Sources */,
+				DA6B3A941BAFF26C00D82AC1 /* ComprehensiveCaseController.m in Sources */,
 				DA57DF511B5E36FB00EF5718 /* DCPathItemButton.m in Sources */,
 				DA57DF4F1B5E36FB00EF5718 /* DCPathButton.m in Sources */,
 				DA8894331B53E7A200B47DE7 /* SWRevealViewController.m in Sources */,
-				DAADC3231B5A571C00E6C503 /* GroupAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -622,11 +628,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/侧滑菜单/PrefixHeader.pch";
 				INFOPLIST_FILE = "侧滑菜单/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -634,6 +642,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/侧滑菜单/PrefixHeader.pch";
 				INFOPLIST_FILE = "侧滑菜单/Info.plist";
