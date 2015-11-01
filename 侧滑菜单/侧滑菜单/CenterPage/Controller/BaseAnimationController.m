@@ -25,7 +25,9 @@
     _demoView = [[UIView alloc] initWithFrame:CGRectMake(SCREEN_WIDTH/2-50, SCREEN_HEIGHT/2-100,100 ,100 )];
     _demoView.backgroundColor = [UIColor redColor];
     [self.view addSubview:_demoView];
-
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeContactAdd];
+    [self.view addSubview:btn];
 }
 
 
