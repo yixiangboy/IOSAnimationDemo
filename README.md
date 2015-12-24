@@ -198,8 +198,7 @@ github下载地址：[https://github.com/yixiangboy/IOSAnimationDemo](https://gi
 个人博客地址：[http://blog.csdn.net/yixiangboy](http://blog.csdn.net/yixiangboy)
 <br/>
 ##七、博主的话
-以前看过很多别人的博客，学到不少东西。现在准备自己也开始写写博客，希望能够帮到一些人。如果工作不是特别忙的话，准备每周写一篇。<br/>
 **我的联系方式：**
-微博：[新浪微博](http://weibo.com/5612984599/profile?topnav=1&wvr=6)
-博客：[http://blog.csdn.net/yixiangboy ](http://blog.csdn.net/yixiangboy)
-github：[https://github.com/yixiangboy](https://github.com/yixiangboy)
+微博：[新浪微博](http://weibo.com/5612984599/profile?topnav=1&wvr=6)<br>
+博客：[http://blog.csdn.net/yixiangboy ](http://blog.csdn.net/yixiangboy)<br>
+github：[https://github.com/yixiangboy](https://github.com/yixiangboy)<br>
