@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface RightViewController : UIViewController
-
+@property (nonatomic, strong) UIView *headView;
 @end

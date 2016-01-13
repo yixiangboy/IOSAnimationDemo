@@ -10,6 +10,8 @@
 
 @implementation RightViewController
 
+
+// view即将显示调用
 -(void)viewDidLoad{
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor orangeColor];
@@ -19,6 +21,8 @@
     label.font = [UIFont systemFontOfSize:22];
     label.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:label];
+    
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 @end
