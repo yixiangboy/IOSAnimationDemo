@@ -26,9 +26,6 @@
 		DA57DF451B5E36A200EF5718 /* bloom.caf in Resources */ = {isa = PBXBuildFile; fileRef = DA57DF421B5E36A200EF5718 /* bloom.caf */; };
 		DA57DF461B5E36A200EF5718 /* fold.caf in Resources */ = {isa = PBXBuildFile; fileRef = DA57DF431B5E36A200EF5718 /* fold.caf */; };
 		DA57DF471B5E36A200EF5718 /* selected.caf in Resources */ = {isa = PBXBuildFile; fileRef = DA57DF441B5E36A200EF5718 /* selected.caf */; };
-		DA57DF4F1B5E36FB00EF5718 /* DCPathButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA57DF4A1B5E36FB00EF5718 /* DCPathButton.m */; };
-		DA57DF501B5E36FB00EF5718 /* DCPathCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA57DF4C1B5E36FB00EF5718 /* DCPathCenterButton.m */; };
-		DA57DF511B5E36FB00EF5718 /* DCPathItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA57DF4E1B5E36FB00EF5718 /* DCPathItemButton.m */; };
 		DA57DF551B5F6A8400EF5718 /* DWBubbleMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA57DF541B5F6A8400EF5718 /* DWBubbleMenuButton.m */; };
 		DA57DF5B1B5FC6C300EF5718 /* MCFireworksButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA57DF581B5FC6C300EF5718 /* MCFireworksButton.m */; };
 		DA57DF5C1B5FC6C300EF5718 /* MCFireworksView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA57DF5A1B5FC6C300EF5718 /* MCFireworksView.m */; };
@@ -53,6 +50,9 @@
 		DA8894391B53F00300B47DE7 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8894381B53F00300B47DE7 /* RightViewController.m */; };
 		DA88943F1B53F0CB00B47DE7 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA88943E1B53F0CB00B47DE7 /* LeftViewController.m */; };
 		DAADC32A1B5B40A700E6C503 /* TitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DAADC3291B5B40A700E6C503 /* TitleButton.m */; };
+		DADDB5121BC8EEFD0029AC56 /* DCPathButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DADDB50D1BC8EEFD0029AC56 /* DCPathButton.m */; settings = {ASSET_TAGS = (); }; };
+		DADDB5131BC8EEFD0029AC56 /* DCPathCenterButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DADDB50F1BC8EEFD0029AC56 /* DCPathCenterButton.m */; settings = {ASSET_TAGS = (); }; };
+		DADDB5141BC8EEFD0029AC56 /* DCPathItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DADDB5111BC8EEFD0029AC56 /* DCPathItemButton.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,12 +85,6 @@
 		DA57DF421B5E36A200EF5718 /* bloom.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = bloom.caf; sourceTree = "<group>"; };
 		DA57DF431B5E36A200EF5718 /* fold.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fold.caf; sourceTree = "<group>"; };
 		DA57DF441B5E36A200EF5718 /* selected.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = selected.caf; sourceTree = "<group>"; };
-		DA57DF491B5E36FB00EF5718 /* DCPathButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathButton.h; sourceTree = "<group>"; };
-		DA57DF4A1B5E36FB00EF5718 /* DCPathButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathButton.m; sourceTree = "<group>"; };
-		DA57DF4B1B5E36FB00EF5718 /* DCPathCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathCenterButton.h; sourceTree = "<group>"; };
-		DA57DF4C1B5E36FB00EF5718 /* DCPathCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathCenterButton.m; sourceTree = "<group>"; };
-		DA57DF4D1B5E36FB00EF5718 /* DCPathItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathItemButton.h; sourceTree = "<group>"; };
-		DA57DF4E1B5E36FB00EF5718 /* DCPathItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathItemButton.m; sourceTree = "<group>"; };
 		DA57DF531B5F6A8400EF5718 /* DWBubbleMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWBubbleMenuButton.h; sourceTree = "<group>"; };
 		DA57DF541B5F6A8400EF5718 /* DWBubbleMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWBubbleMenuButton.m; sourceTree = "<group>"; };
 		DA57DF571B5FC6C300EF5718 /* MCFireworksButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCFireworksButton.h; sourceTree = "<group>"; };
@@ -136,6 +130,12 @@
 		DA8894401B55233C00B47DE7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		DAADC3281B5B40A700E6C503 /* TitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleButton.h; sourceTree = "<group>"; };
 		DAADC3291B5B40A700E6C503 /* TitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleButton.m; sourceTree = "<group>"; };
+		DADDB50C1BC8EEFD0029AC56 /* DCPathButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathButton.h; sourceTree = "<group>"; };
+		DADDB50D1BC8EEFD0029AC56 /* DCPathButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathButton.m; sourceTree = "<group>"; };
+		DADDB50E1BC8EEFD0029AC56 /* DCPathCenterButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathCenterButton.h; sourceTree = "<group>"; };
+		DADDB50F1BC8EEFD0029AC56 /* DCPathCenterButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathCenterButton.m; sourceTree = "<group>"; };
+		DADDB5101BC8EEFD0029AC56 /* DCPathItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCPathItemButton.h; sourceTree = "<group>"; };
+		DADDB5111BC8EEFD0029AC56 /* DCPathItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCPathItemButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,20 +190,6 @@
 				DA57DF441B5E36A200EF5718 /* selected.caf */,
 			);
 			path = Sounds;
-			sourceTree = "<group>";
-		};
-		DA57DF481B5E36D000EF5718 /* DCPathButton */ = {
-			isa = PBXGroup;
-			children = (
-				DA57DF491B5E36FB00EF5718 /* DCPathButton.h */,
-				DA57DF4A1B5E36FB00EF5718 /* DCPathButton.m */,
-				DA57DF4B1B5E36FB00EF5718 /* DCPathCenterButton.h */,
-				DA57DF4C1B5E36FB00EF5718 /* DCPathCenterButton.m */,
-				DA57DF4D1B5E36FB00EF5718 /* DCPathItemButton.h */,
-				DA57DF4E1B5E36FB00EF5718 /* DCPathItemButton.m */,
-			);
-			name = DCPathButton;
-			path = LeftPage/DCPathButton;
 			sourceTree = "<group>";
 		};
 		DA57DF521B5F69DF00EF5718 /* DWBubbleMenuButton */ = {
@@ -268,9 +254,9 @@
 		DA8894091B53E3FF00B47DE7 /* 侧滑菜单 */ = {
 			isa = PBXGroup;
 			children = (
+				DADDB50B1BC8EEFD0029AC56 /* DCPathButton */,
 				DA57DF561B5FC68400EF5718 /* MCFireworksButton */,
 				DA57DF521B5F69DF00EF5718 /* DWBubbleMenuButton */,
-				DA57DF481B5E36D000EF5718 /* DCPathButton */,
 				DA8894361B53EFB600B47DE7 /* RightPage */,
 				DA8894351B53EF9500B47DE7 /* CenterPage */,
 				DA8894341B53EF5700B47DE7 /* LeftPage */,
@@ -359,6 +345,19 @@
 				DAADC3291B5B40A700E6C503 /* TitleButton.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		DADDB50B1BC8EEFD0029AC56 /* DCPathButton */ = {
+			isa = PBXGroup;
+			children = (
+				DADDB50C1BC8EEFD0029AC56 /* DCPathButton.h */,
+				DADDB50D1BC8EEFD0029AC56 /* DCPathButton.m */,
+				DADDB50E1BC8EEFD0029AC56 /* DCPathCenterButton.h */,
+				DADDB50F1BC8EEFD0029AC56 /* DCPathCenterButton.m */,
+				DADDB5101BC8EEFD0029AC56 /* DCPathItemButton.h */,
+				DADDB5111BC8EEFD0029AC56 /* DCPathItemButton.m */,
+			);
+			path = DCPathButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -483,6 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADDB5131BC8EEFD0029AC56 /* DCPathCenterButton.m in Sources */,
 				DA6B3A921BAFF26C00D82AC1 /* BaseAnimationController.m in Sources */,
 				DA6B3A961BAFF26C00D82AC1 /* KeyFrameAnimationController.m in Sources */,
 				DA8894391B53F00300B47DE7 /* RightViewController.m in Sources */,
@@ -490,18 +490,17 @@
 				DA57DF551B5F6A8400EF5718 /* DWBubbleMenuButton.m in Sources */,
 				DA6B3A971BAFF26C00D82AC1 /* TransitionAnimationController.m in Sources */,
 				DA6B3A951BAFF26C00D82AC1 /* GroupAnimationController.m in Sources */,
+				DADDB5141BC8EEFD0029AC56 /* DCPathItemButton.m in Sources */,
 				DA8894131B53E3FF00B47DE7 /* ViewController.m in Sources */,
 				DA57DF5B1B5FC6C300EF5718 /* MCFireworksButton.m in Sources */,
+				DADDB5121BC8EEFD0029AC56 /* DCPathButton.m in Sources */,
 				DA6B3A911BAFF26C00D82AC1 /* AffineTransformController.m in Sources */,
 				DA8894101B53E3FF00B47DE7 /* AppDelegate.m in Sources */,
-				DA57DF501B5E36FB00EF5718 /* DCPathCenterButton.m in Sources */,
 				DA6B3A931BAFF26C00D82AC1 /* BaseViewController.m in Sources */,
 				DAADC32A1B5B40A700E6C503 /* TitleButton.m in Sources */,
 				DA88943F1B53F0CB00B47DE7 /* LeftViewController.m in Sources */,
 				DA88940D1B53E3FF00B47DE7 /* main.m in Sources */,
 				DA6B3A941BAFF26C00D82AC1 /* ComprehensiveCaseController.m in Sources */,
-				DA57DF511B5E36FB00EF5718 /* DCPathItemButton.m in Sources */,
-				DA57DF4F1B5E36FB00EF5718 /* DCPathButton.m in Sources */,
 				DA8894331B53E7A200B47DE7 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
